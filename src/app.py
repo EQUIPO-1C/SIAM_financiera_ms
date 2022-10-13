@@ -100,4 +100,4 @@ def update_user(id):
 
 
 if __name__ == '__main__':
-    app.run(port=8000, debug = true)
+    app.run(port=8000, debug = True)
