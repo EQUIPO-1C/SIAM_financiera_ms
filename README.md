@@ -19,7 +19,7 @@ Build your image in the root directory of the project
 
 Run the container with the next template
 
-	sudo docker run -it --network host -e DB_USER=<THE DATABASE USER> -e DB_PSWD=<THE DATABASE PASSWORD> --name financiera_ms financiera_ms_devimg
+	sudo docker run -d -p 8000:8000 -e DB_USER=procIns_ms_C -e DB_PSWD=arquisoft2022 --name financiera_ms financiera_ms_devimg
 
 
 
